@@ -13,7 +13,7 @@
 				margin: 0;
 				padding: 0;
 			}
-			html,body{
+			html{
 				width: 100%;
 				height: 100%;
 			}
@@ -21,16 +21,16 @@
 				background: linear-gradient(186.09deg, #E1F6FF 0%, #FFFFFF 30.13%);
 			}
 			.t1{
-				margin: 110px 30px 0 30px;
+				margin: 80px 30px 0 30px;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
 				align-items: center;
 			}
 			.t1 p{
-				font-family: Arial, SimSun, STSong, serif;
+				font-family: 宋体;
 				font-weight: bold;
-				font-size: 32px;
+				font-size: 30px;
 				color: var(--tColor);
 			}
 			.t1 img{
@@ -84,6 +84,14 @@
 				box-shadow: 0px 4px 4px rgba(96, 208, 113, 0.2);
 				border-radius: 50%;
 			}
+			.t3 p{
+				width: 120px;
+				margin: 0 auto;
+				font-size: 14px;
+				color: #999999;
+				text-align: center;
+				margin-top: 4px;
+			}
 			.qrcode{
 				width: 108px;
 				height: 108px;
@@ -113,7 +121,11 @@
 			<img src="img/down.png" />
 			<a href="tel:17353562254"></a>
 		</div>
-		<img class="qrcode" src="img/qrcode.png" />
+		<div class="t3">
+			<img class="qrcode" src="img/qrcode.png" />
+			<p>有业务需求可长按保存二维码</p>
+		</div>
+		
 		<p class="footer">@DONG版权所有，侵权必究</p>
 	</body>
 </html>
