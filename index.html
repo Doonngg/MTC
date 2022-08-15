@@ -17,11 +17,12 @@
 				width: 100%;
 				height: 100%;
 			}
-			body{
-				background: linear-gradient(186.09deg, #E1F6FF 0%, #FFFFFF 30.13%);
+			.tBody{
+				padding-top: 1px;
+				background: linear-gradient(186.09deg, #E1F6FF 0%, #FFFFFF 40%);
 			}
 			.t1{
-				margin: 80px 30px 0 30px;
+				margin: 63px 30px 0 30px;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
@@ -84,6 +85,9 @@
 				box-shadow: 0px 4px 4px rgba(96, 208, 113, 0.2);
 				border-radius: 50%;
 			}
+			.t3{
+				margin-top: 40px;
+			}
 			.t3 p{
 				width: 120px;
 				margin: 0 auto;
@@ -97,35 +101,27 @@
 				height: 108px;
 				display: block;
 				margin: 0 auto;
-				margin-top: 48px;
-			}
-			.footer{
-				font-size: 13px;
-				color: rgba(0,0,0,0.3);
-				position: fixed;
-				bottom: 16px;
-				left: 50%;
-				transform: translateX(-50%);
 			}
 		</style>
 	</head>
 	<body>
-		<div class="t1">
-			<p>呼叫车主，</br>车主马上就到。</p>
-			<img src="img/TX.png" />
-		</div>
-		<div class="t2">
-			<b>鲁QF05829</b>
-			<p>车主孙先生</p>
-			<p>点击下方拨号按钮，呼叫车主...</p>
-			<img src="img/down.png" />
-			<a href="tel:17353562254"></a>
-		</div>
-		<div class="t3">
-			<img class="qrcode" src="img/qrcode.png" />
-			<p>有业务需求可长按保存二维码</p>
+		<div class="tBody">
+			<div class="t1">
+				<p>呼叫车主，</br>车主马上就到。</p>
+				<img src="img/TX.png" />
+			</div>
+			<div class="t2">
+				<b>鲁QF05829</b>
+				<p>车主孙先生</p>
+				<p>点击下方拨号按钮，呼叫车主...</p>
+				<img src="img/down.png" />
+				<a href="tel:17353562254"></a>
+			</div>
+			<div class="t3">
+				<img class="qrcode" src="img/qrcode.png" />
+				<p>有业务需求可长按保存二维码</p>
+			</div>
 		</div>
 		
-		<p class="footer">@DONG版权所有，侵权必究</p>
 	</body>
 </html>
