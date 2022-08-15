@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+		<meta name="format-detection" content="telephone=yes"/>
+		<meta charset="utf-8" />
+		<title>呼叫车主孙先生</title>
+		<style type="text/css">
+			:root{
+				--tColor:#18191F;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			body{
+				background: linear-gradient(186.09deg, #E1F6FF 0%, #FFFFFF 30.13%);
+			}
+			.t1{
+				margin: 110px 30px 0 30px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.t1 p{
+				font-family: Arial, SimSun, STSong, serif;
+				font-weight: bold;
+				font-size: 32px;
+				color: var(--tColor);
+			}
+			.t1 img{
+				width: 80px;
+				height: 80px;
+				border: 1px solid var(--tColor);
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			.t2{
+				width: 75vw;
+				margin: 0 auto;
+				margin-top: 64px;
+				background: #FFFFFF;
+				box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.08);
+				border-radius: 8px;
+				padding: 24px;
+				text-align: center;
+			}
+			.t2 b{
+				font-size: 20px;
+				color: var(--tColor);
+				margin-bottom: 8px;
+				display: block;
+			}
+			.t2 p:nth-child(2){
+				font-size: 16px;
+				color: var(--tColor);
+				margin-bottom: 8px;
+				display: block;
+			}
+			.t2 p:nth-child(3){
+				font-size: 14px;
+				color: #999999;
+			}
+			.t2 img:nth-child(4){
+				width: 32px;
+				height: 32px;
+				display: block;
+				margin: 0 auto;
+				margin-top: 30px;
+			}
+			.t2 a{
+				width: 72px;
+				height: 72px;
+				display: block;
+				margin: 0 auto;
+				margin-top: 30px;
+				background: url(img/call.png)no-repeat;
+				background-size: cover;
+				box-shadow: 0px 4px 4px rgba(96, 208, 113, 0.2);
+				border-radius: 50%;
+			}
+			.qrcode{
+				width: 108px;
+				height: 108px;
+				display: block;
+				margin: 0 auto;
+				margin-top: 48px;
+			}
+			.footer{
+				font-size: 13px;
+				color: rgba(0,0,0,0.3);
+				position: fixed;
+				bottom: 16px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="t1">
+			<p>呼叫车主，</br>车主马上就到。</p>
+			<img src="img/TX.png" />
+		</div>
+		<div class="t2">
+			<b>鲁QF05829</b>
+			<p>车主孙先生</p>
+			<p>点击下方拨号按钮，呼叫车主...</p>
+			<img src="img/down.png" />
+			<a href="tel:17353562254"></a>
+		</div>
+		<img class="qrcode" src="img/qrcode.png" />
+		<p class="footer">@DONG版权所有，侵权必究</p>
+	</body>
+</html>
